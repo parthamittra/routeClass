@@ -1,10 +1,12 @@
 ## Route Class
 
-The class Route simulates a http request and response as would come from an API.  The entry point routes.php in the base dir.   Since this is not run using a webserver this code takes the cases in the nested and unnested routes and runs them through routes.php.  To get the project
+The class Route simulates a http request and response as would come from an API.  The entry point routes.php in the base dir.   Since this is not run using a webserver this code takes the cases in the nested and unnested routes and runs them through routes.php.  To get and run the project
 
->git clone https://github.com/parthamittra/routeClass.git
->composer install
->php routes.php
+git clone https://github.com/parthamittra/routeClass.git
+
+composer install
+
+php routes.php
 
 The requests (in the routes.php file with a Request object) will then output the json responses.
 
