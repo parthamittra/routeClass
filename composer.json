@@ -1,0 +1,17 @@
+{
+    "name": "parthamittra/route-class",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Partha Mittra",
+            "email": "partha.mittra@yahoo.com"
+        }
+    ],
+    "require": {},
+     "autoload" : {
+	     "psr-4": {
+		     "App\\": "app/"
+	     }
+     }
+
+}
